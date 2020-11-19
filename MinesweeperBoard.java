@@ -153,7 +153,7 @@ public class MinesweeperBoard {
                 if (field[i][j].hasMine() && !field[i][j].isFlagged()) {
                     isFirst = false;
                 } else if (!field[i][j].hasMine() && field[i][j].isFlagged()) {
-                    isFirst = true;
+                    isFirst = false;
                 }
             }
         }
